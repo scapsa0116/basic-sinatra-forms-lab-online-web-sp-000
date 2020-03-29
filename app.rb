@@ -25,7 +25,7 @@ class App < Sinatra::Base
    erb :team 
  end 
  
- post '/newteam' do 
+ post '/team' do 
    puts params 
    erb :team 
  end 
