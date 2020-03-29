@@ -25,11 +25,6 @@ class App < Sinatra::Base
    erb :team 
  end 
  
- post '/newteam' do 
-   
-   erb :newteam
- end 
- 
- 
+
 
 end
